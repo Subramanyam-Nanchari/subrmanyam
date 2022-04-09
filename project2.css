@@ -1,0 +1,100 @@
+ .icon{
+     width: 150px;
+     height: 75px;
+ }
+ 
+ header{
+    position: fixed;
+    width:100%;
+    align-items: center;
+    display:flex;
+    right:0;
+    top:0;
+    z-index: 1000;
+    justify-content: space-between;
+    background-color:#aae499;
+    padding:0px;
+    height:75px;
+    font-weight: 900;
+    font-size: 25px;
+   }
+ .menu{
+        list-style: none;
+  }
+.menu li{
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    .menu li a{
+        display: block;
+        text-decoration: none;
+        color:#1a2428;
+        font-weight: 500;
+        padding:10px;
+    }
+    .menu li a:hover, .menu .home-active{
+        background-color: rgb(219, 172, 84);
+    border-radius: 25px;
+    }
+.about{
+    padding-top:100px;
+    padding-left: 20px;
+}
+.about .daily{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.name{
+    font-size: 15px;
+    color: darkmagenta;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+.d-block{
+    width: 300px;
+    height: 500px;
+    padding: 90px 50px 10px;
+    background-color: rgb(190, 190, 238);
+}
+.main{
+    display:block;
+    text-decoration:none;
+} 
+.footer{
+    padding: 10px 7px;
+}
+.footer-box{
+    padding: 10px 0px;
+    text-align: center;
+}
+.daily{
+    width:200px;
+    height: 35px;
+    padding-right: 100px;
+    padding-top: 0%;
+    margin-left: 30px;
+}
+#post{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 30px;
+    margin-left: 0px;
+}
+.social{
+    padding:0px 25px;
+}
+#row{
+    background-color: #eacbea;
+}
+h5,main{
+    margin-left: 20px;
+    padding: 5px;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+.fa-envelope,.fa-phone{
+    padding-right: 5px;
+}
